@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100%/3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+    img {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Complete the HTML here -->
+<h1>INDIANA JONES</h1>
+<div class= "container">
+  <div class="row">
+    <div class= "column">
+      <img src= "images/temple.jpg">
+      <h3>Indiana Jones and the Temple</h3>
+      <p>This movie was the place where Jones found the temple and it was huge</p>
+    </div>
+    <div class="column">
+      <img src= "images/raiders.jpg">
+      <h3>Indiana Jones Raiders Ark</h3>
+      <p>Indiana found a big raider and he was very scary</p>
+
+    </div>
+    <div class="column">
+      <img src= "images/crusade.jpg">
+      <h3>Indiana Jones and The Crusade</h3>
+      <p>The crusade was a very important time for jones</p>
+
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
