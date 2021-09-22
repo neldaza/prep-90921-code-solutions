@@ -1,14 +1,14 @@
 const languages = ['html', 'css', 'javascript', 'react', 'node', 'postgres'];
 console.log(languages);
 var declareFirstElement = 'The first element of the array is';
-var firstElement = 'html';
+var firstElement = languages[0];
 console.log(declareFirstElement, firstElement);
 var declareThirdElement = 'The 3rd element of the array is';
-var thirdElement = 'javascript';
+var thirdElement = languages[2];
 console.log(declareThirdElement, thirdElement);
 var declareLength = 'The length of the array is';
 var length = 6;
 console.log(declareLength, length);
 var declareLastElement = 'The last element of the array is';
-var lastElement = 'postgres';
+var lastElement = languages[5];
 console.log(declareLastElement, lastElement);
