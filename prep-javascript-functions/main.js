@@ -43,9 +43,9 @@ var circumference = getCircleCircumference(5);
 console.log(circumference);
 
 function getFullName(firstName, lastName) {
-  return firstName + lastName;
+  return firstName + ' ' + lastName;
 }
-var name = getFullName('Nelson ', 'Daza');
+var name = getFullName('Nelson', 'Daza');
 console.log(name);
 
 function cube(number) {
