@@ -13,12 +13,12 @@
   </div>
   <script>
     // Your code here
-    var $container = document.querySelector('div.container');
+    var $container = document.querySelector('#container');
     console.log(container);
     var $heading = document.createElement('h1');
     $heading.textContent = 'Hello World';
     console.log($heading);
-    $heading.appendChild($container);
+    $container.appendChild($heading);
   </script>
 </body>
 
